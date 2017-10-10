@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Strandberg95/CLionProjects/cpp_lab3/cpp/Person.cpp
+../headers/Person.h
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/Person.h
+
+/Users/Strandberg95/CLionProjects/cpp_lab3/cpp/PersonReg.cpp
+../headers/PersonReg.h
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/PersonReg.h
+iostream
+-
+string
+-
+../headers/Person.h
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/Person.h
+
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/Person.h
+string
+-
+
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/PersonReg.h
+Person.h
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/Person.h
+
+/Users/Strandberg95/CLionProjects/cpp_lab3/main.cpp
+iostream
+-
+headers/PersonReg.h
+/Users/Strandberg95/CLionProjects/cpp_lab3/headers/PersonReg.h
+
