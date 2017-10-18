@@ -15,9 +15,15 @@ PersonReg :: PersonReg(int size)
     this -> index = 0;
 }
 
-void PersonReg :: addPerson(Person* person)
+void PersonReg :: addPerson(const Person* person)
 {
     this->persons[this->index++] = *person;
+    this->size++;
+}
+
+void PersonReg :: addPerson(const Person& person)
+{
+    this->persons[this->index++] = *&person;
     this->size++;
 }
 
@@ -49,11 +55,41 @@ void PersonReg :: calculateNewArray(Person *persons, int removalIndex)
     this->index--;
 }
 
+Person* PersonReg :: freeSearch(string name, Person* person)
+{
+    Person* rPtr = nullptr;
+
+    for(int i = findIndexOf(person); i != this->size; i++)
+    {
+        if(persons[i].getName() == name)
+        {
+            rPtr = &persons[i];
+        }
+    }
+    return rPtr;
+}
+
+int PersonReg ::findIndexOf(Person* person)
+{
+    if(person == nullptr)
+        return 0;
+
+    for(int i = 0; i != size; i++)
+    {
+        if(persons[i].getName() == person->getName() &&
+                persons[i].getAddress() == person->getAddress())
+        {
+            return i;
+        }
+    }
+    return 0;
+}
+
 void PersonReg :: printPersons()
 {
     for(int i = 0; i != this->index; i++)
     {
-        cout << "Name: " << this->persons[i].getName() << " Address: " << this->persons[i].getAddress() << endl;
+        this->persons[i].print();
     }
 }
 

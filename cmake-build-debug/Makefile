@@ -123,6 +123,33 @@ cpp_lab3/fast:
 	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/build
 .PHONY : cpp_lab3/fast
 
+RegSolver.o: RegSolver.cpp.o
+
+.PHONY : RegSolver.o
+
+# target to build an object file
+RegSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o
+.PHONY : RegSolver.cpp.o
+
+RegSolver.i: RegSolver.cpp.i
+
+.PHONY : RegSolver.i
+
+# target to preprocess a source file
+RegSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/RegSolver.cpp.i
+.PHONY : RegSolver.cpp.i
+
+RegSolver.s: RegSolver.cpp.s
+
+.PHONY : RegSolver.s
+
+# target to generate assembly for a file
+RegSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/RegSolver.cpp.s
+.PHONY : RegSolver.cpp.s
+
 cpp/Person.o: cpp/Person.cpp.o
 
 .PHONY : cpp/Person.o
@@ -177,6 +204,33 @@ cpp/PersonReg.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/cpp/PersonReg.cpp.s
 .PHONY : cpp/PersonReg.cpp.s
 
+cpp/PersonWithPhone.o: cpp/PersonWithPhone.cpp.o
+
+.PHONY : cpp/PersonWithPhone.o
+
+# target to build an object file
+cpp/PersonWithPhone.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o
+.PHONY : cpp/PersonWithPhone.cpp.o
+
+cpp/PersonWithPhone.i: cpp/PersonWithPhone.cpp.i
+
+.PHONY : cpp/PersonWithPhone.i
+
+# target to preprocess a source file
+cpp/PersonWithPhone.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.i
+.PHONY : cpp/PersonWithPhone.cpp.i
+
+cpp/PersonWithPhone.s: cpp/PersonWithPhone.cpp.s
+
+.PHONY : cpp/PersonWithPhone.s
+
+# target to generate assembly for a file
+cpp/PersonWithPhone.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.s
+.PHONY : cpp/PersonWithPhone.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,12 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_lab3"
+	@echo "... RegSolver.o"
+	@echo "... RegSolver.i"
+	@echo "... RegSolver.s"
 	@echo "... cpp/Person.o"
 	@echo "... cpp/Person.i"
 	@echo "... cpp/Person.s"
 	@echo "... cpp/PersonReg.o"
 	@echo "... cpp/PersonReg.i"
 	@echo "... cpp/PersonReg.s"
+	@echo "... cpp/PersonWithPhone.o"
+	@echo "... cpp/PersonWithPhone.i"
+	@echo "... cpp/PersonWithPhone.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

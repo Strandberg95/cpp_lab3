@@ -8,16 +8,18 @@
 #include <string>
 using namespace std;
 
-class Person{
+class Person
+{
     private:
         string name;
         string address;
     public:
         Person();
-        Person(string name, string address);
+        Person(const string& name,const string& address);
         string getName();
         string getAddress();
-        void print();
+        virtual void print();
+        virtual ~Person();
 };
 
 #endif //CPP_LAB3_PERSON_H

@@ -6,18 +6,21 @@
 #define CPP_LAB3_PERSONREG_H
 #include "Person.h"
 
-class PersonReg{
+class PersonReg
+{
 
 private:
     Person* persons;
     int size;
     int index;
     void calculateNewArray(Person* persons, int removalIndex);
+    int findIndexOf(Person* person);
 public:
     PersonReg(int size);
-    void addPerson(Person* person);
+    void addPerson(const Person* person);
+    void addPerson(const Person& person);
     void removePerson(Person* person);
-    void search(string name);
+    Person* freeSearch(string name, Person* person);
     void printPersons();
     ~PersonReg();
 };

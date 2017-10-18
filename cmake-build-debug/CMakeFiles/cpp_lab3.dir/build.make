@@ -129,11 +129,61 @@ CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o.provides: CMakeFiles/cpp_lab3.dir/cpp/P
 CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o.provides.build: CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o
 
 
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o: CMakeFiles/cpp_lab3.dir/flags.make
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o: ../RegSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o -c /Users/Strandberg95/CLionProjects/cpp_lab3/RegSolver.cpp
+
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_lab3.dir/RegSolver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Strandberg95/CLionProjects/cpp_lab3/RegSolver.cpp > CMakeFiles/cpp_lab3.dir/RegSolver.cpp.i
+
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_lab3.dir/RegSolver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Strandberg95/CLionProjects/cpp_lab3/RegSolver.cpp -o CMakeFiles/cpp_lab3.dir/RegSolver.cpp.s
+
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.requires
+
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.provides: CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.provides
+
+CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.provides.build: CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o
+
+
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o: CMakeFiles/cpp_lab3.dir/flags.make
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o: ../cpp/PersonWithPhone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o -c /Users/Strandberg95/CLionProjects/cpp_lab3/cpp/PersonWithPhone.cpp
+
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Strandberg95/CLionProjects/cpp_lab3/cpp/PersonWithPhone.cpp > CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.i
+
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Strandberg95/CLionProjects/cpp_lab3/cpp/PersonWithPhone.cpp -o CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.s
+
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.requires
+
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.provides: CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp_lab3.dir/build.make CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.provides
+
+CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.provides.build: CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o
+
+
 # Object files for target cpp_lab3
 cpp_lab3_OBJECTS = \
 "CMakeFiles/cpp_lab3.dir/main.cpp.o" \
 "CMakeFiles/cpp_lab3.dir/cpp/PersonReg.cpp.o" \
-"CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o"
+"CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o" \
+"CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o" \
+"CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o"
 
 # External object files for target cpp_lab3
 cpp_lab3_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ cpp_lab3_EXTERNAL_OBJECTS =
 cpp_lab3: CMakeFiles/cpp_lab3.dir/main.cpp.o
 cpp_lab3: CMakeFiles/cpp_lab3.dir/cpp/PersonReg.cpp.o
 cpp_lab3: CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o
+cpp_lab3: CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o
+cpp_lab3: CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o
 cpp_lab3: CMakeFiles/cpp_lab3.dir/build.make
 cpp_lab3: CMakeFiles/cpp_lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Strandberg95/CLionProjects/cpp_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cpp_lab3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Strandberg95/CLionProjects/cpp_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpp_lab3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_lab3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/cpp_lab3.dir/build: cpp_lab3
 CMakeFiles/cpp_lab3.dir/requires: CMakeFiles/cpp_lab3.dir/main.cpp.o.requires
 CMakeFiles/cpp_lab3.dir/requires: CMakeFiles/cpp_lab3.dir/cpp/PersonReg.cpp.o.requires
 CMakeFiles/cpp_lab3.dir/requires: CMakeFiles/cpp_lab3.dir/cpp/Person.cpp.o.requires
+CMakeFiles/cpp_lab3.dir/requires: CMakeFiles/cpp_lab3.dir/RegSolver.cpp.o.requires
+CMakeFiles/cpp_lab3.dir/requires: CMakeFiles/cpp_lab3.dir/cpp/PersonWithPhone.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp_lab3.dir/requires
 

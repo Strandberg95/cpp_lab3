@@ -3,5 +3,5 @@ project(cpp_lab3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp cpp/PersonReg.cpp headers/PersonReg.h cpp/Person.cpp headers/Person.h)
+set(SOURCE_FILES main.cpp cpp/PersonReg.cpp headers/PersonReg.h cpp/Person.cpp headers/Person.h RegSolver.cpp RegSolver.h cpp/PersonWithPhone.cpp headers/PersonWithPhone.h)
 add_executable(cpp_lab3 ${SOURCE_FILES})
